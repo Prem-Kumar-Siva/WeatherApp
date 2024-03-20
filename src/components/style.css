@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round:wght@400&display=swap');
+.homecard{
+    padding:"50px";
+    width:"400px";
+    margin:"0px";
+    background-color: "rgba(255, 255, 255, 0.55)";
+    border-radius:"20px"
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+     background-image: url('weatherBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #252121;
+    text-align: center;
+  }
+  .container {
+  
+    background-color: rgba(148, 164, 221, 0.775);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    
+  }
+  
+  
+  .Title {
+    text-align: center;
+    color: #171f1b; 
+    font-size: 500%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-display:inherit;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .input-container {
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  .button2 {
+    padding: 10px 20px;
+    background-color: #0026cf; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    margin: 5px 0;
+    color: #000000;
+  }
+  
+.weather-card {
+  background-color: #f0f0f0c1;
+  padding: 30px;
+  border-radius: 8px;
+  margin-right: 20px; 
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between; 
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 180px;
+}
